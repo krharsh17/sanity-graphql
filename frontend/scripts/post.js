@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async function(){
         }`
     })
 
-    const response = await fetch('https://<yourProjectId>.api.sanity.io/v1/graphql/production/default', {
+    const response = await fetch('https://0gfi03v3.api.sanity.io/v1/graphql/production/default', {
         method: 'post',
         body: data,
         headers: {
@@ -95,7 +95,7 @@ function updateViews(postId) {
     fetch('https://0gfi03v3.api.sanity.io/v2021-06-07/data/mutate/production', {
         method: 'POST',
         headers: {
-            'Authorization': 'Bearer <your-personal-api-token>',
+            'Authorization': 'Bearer skFPIYfjhAbylm0KrrVvPhJS3NxVUzVUPgvaT3JvnKAbDcKHeNx45M7xaa0xeoqbry9PeX4iqo5hLxYsp',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
