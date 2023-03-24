@@ -1,0 +1,47 @@
+.nav{
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+   }
+   .container{
+    max-width: 900px;
+    margin: auto;
+   }
+   .postContainer{
+    margin-top: 2rem;
+   }
+   .postTitle{
+    font-size: 2rem;
+    font-weight: bold;
+   }
+   
+   .postImg{
+    max-width: 300px;
+    height: auto;
+   }
+ 
+   .postCard{
+    display: flex;
+    padding: 0.5rem;
+   }
+
+   .postDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: .2rem 1rem;
+   }
+   
+   .btn {
+    background-color: blue;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    max-width: fit-content;
+   }
+   
+   .floatImg{
+    float: left;
+   }
