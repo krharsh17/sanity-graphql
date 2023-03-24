@@ -92,7 +92,7 @@ function renderBody(blocks){
 
 // function to update views on every page load
 function updateViews(postId) {
-    fetch('https://<yourProjectId>.api.sanity.io/v2021-06-07/data/mutate/production', {
+    fetch('https://0gfi03v3.api.sanity.io/v2021-06-07/data/mutate/production', {
         method: 'POST',
         headers: {
             'Authorization': 'Bearer <your-personal-api-token>',
