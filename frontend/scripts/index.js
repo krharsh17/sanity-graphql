@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async function(){
                 }`
     })
 
-    const response = await fetch('https://<your-project-id>.api.sanity.io/v1/graphql/production/default', {
+    const response = await fetch('https://0gfi03v3.api.sanity.io/v1/graphql/production/default', {
         method: 'post',
         body: data,
         headers: {
